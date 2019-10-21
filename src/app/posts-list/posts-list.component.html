@@ -1,0 +1,5 @@
+<ul *ngFor="let post of postsList">
+  <li>
+    <a [routerLink]="['posts/', post.id]">{{ post.title }}</a>
+  </li>
+</ul>
